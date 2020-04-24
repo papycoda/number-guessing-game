@@ -18,8 +18,10 @@ if picked == "e":
             print("too low, try again")
         elif guess > number:
             print("too high, drop it low")
+        elif guess == number :
+            print("Hooray, you got it")
         else:
-            pass
+            print("you' maxed out your chances, the number was {}".format(number))
 
 elif picked == "m":
     print("well, {} , I'm thinking of a number between 1 and 50 \nWhy don't you take a guess".format(name.upper()))
@@ -30,8 +32,10 @@ elif picked == "m":
             print("too low, try again")
         elif guess > number:
             print("too high, drop it low")
+        elif guess == number :
+            print("Hooray, you got it")
         else:
-            pass
+            print("you' maxed out your chances, the number was {}".format(number))
 
 elif picked == "h":
     print("well, {} , I'm thinking of a number between 1 and 50 \nWhy don't you take a guess".format(name.upper()))
@@ -42,22 +46,24 @@ elif picked == "h":
             print("too low, try again")
         elif guess > number:
             print("too high, drop it low")
+        elif guess == number :
+            print("Hooray, you got it")
         else:
-            pass
+            print("you' maxed out your chances, the number was {}".format(number))
 
 else:
     print("please select an appropriate level:")
 
 
 #for guesscount in hard,medium,easy:
-guess = int(input())
-if guess < number :
-    print("too low, try again")
-elif guess > number :
-    print("too high, drop it low")
-else:
-    pass
-if guess == number :
-    print("Hooray, you got it")
-else:
-    print("you' maxed out your chances, the number was {}".format(number))
+#guess = int(input())
+#if guess < number :
+   # print("too low, try again")
+#elif guess > number :
+#    print("too high, drop it low")
+#else:
+#    pass
+#if guess == number :
+#    print("Hooray, you got it")
+#else:
+#    print("you' maxed out your chances, the number was {}".format(number))
